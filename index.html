@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                MyPortfolio
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <section class="typography-section">
+        <h1>Responsive Web Design</h1>
+
+        <h2>Responsive Typography</h2>
+
+        <p>
+            This webpage demonstrates responsive typography using CSS media queries.
+            The font sizes change automatically depending on the screen size.
+        </p>
+
+        <p>
+            On mobile devices the text is smaller, on tablets it becomes medium,
+            and on desktop screens it becomes larger.
+        </p>
+    </section>
+
+    <section class="layout-section">
+
+        <h2>Task 1: Responsive Layout</h2>
+
+        <div class="boxes">
+
+            <div class="box box1">
+                <h3>Box 1</h3>
+                <p>First responsive box.</p>
+            </div>
+
+            <div class="box box2">
+                <h3>Box 2</h3>
+                <p>Second responsive box.</p>
+            </div>
+
+            <div class="box box3">
+                <h3>Box 3</h3>
+                <p>Third responsive box.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="bootstrap-section">
+
+        <div class="container">
+
+            <h2 class="text-center mb-4">
+                Task 2: Bootstrap Responsive Columns
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="bootstrap-box">
+                        <h3>Column 1</h3>
+                        <p>
+                            This is the first Bootstrap column.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="bootstrap-box">
+                        <h3>Column 2</h3>
+                        <p>
+                            This is the second Bootstrap column.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="bootstrap-box">
+                        <h3>Column 3</h3>
+                        <p>
+                            This is the third Bootstrap column.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section class="portfolio-section">
+
+        <div class="container">
+
+            <h2 class="portfolio-title">Task 4: Responsive Portfolio</h2>
+
+            <div class="row g-4">
+
+                <main class="col-12 col-lg-8">
+
+                    <h3 class="section-title">My Projects</h3>
+
+                    <div class="row g-4">
+
+                        <div class="col-12 col-md-6">
+                            <div class="project-card">
+                                <h4>HTML & CSS Project</h4>
+                                <p>
+                                    A responsive webpage created using HTML and CSS.
+                                </p>
+                                <button class="btn btn-dark">View Project</button>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="project-card">
+                                <h4>Flexbox & Grid</h4>
+                                <p>
+                                    A modern layout created using CSS Flexbox and Grid.
+                                </p>
+                                <button class="btn btn-dark">View Project</button>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="project-card">
+                                <h4>Responsive Design</h4>
+                                <p>
+                                    A responsive website that adapts to different screen sizes.
+                                </p>
+                                <button class="btn btn-dark">View Project</button>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div class="project-card">
+                                <h4>Bootstrap Project</h4>
+                                <p>
+                                    A website layout created using the Bootstrap grid system.
+                                </p>
+                                <button class="btn btn-dark">View Project</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </main>
+
+                <aside class="col-12 col-lg-4">
+
+                    <div class="sidebar">
+
+                        <h3>Personal Information</h3>
+
+                        <p><strong>Name:</strong> Said Sana Ullah Sadat</p>
+
+                        <p><strong>Group:</strong> IT 2502</p>
+
+                        <p><strong>Role:</strong> Front-End Student</p>
+
+                        <h4>Contact</h4>
+
+                        <p><strong>Email:</strong> student@example.com</p>
+
+                        <p><strong>Phone:</strong> +7 700 000 0000</p>
+
+                    </div>
+
+                </aside>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+
+        <p>© 2026 Said Sana Ullah Sadat. All Rights Reserved.</p>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

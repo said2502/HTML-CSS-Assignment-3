@@ -1,0 +1,260 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.typography-section {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.typography-section h1 {
+    font-size: 40px;
+}
+
+.typography-section h2 {
+    font-size: 30px;
+}
+
+.typography-section p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.layout-section {
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.layout-section h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    flex: 1;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid #333;
+}
+
+.box h3 {
+    font-size: 24px;
+}
+
+.box p {
+    font-size: 18px;
+}
+
+.bootstrap-section {
+    margin: 50px auto;
+}
+
+.bootstrap-box {
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    height: 100%;
+}
+
+.bootstrap-box h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.bootstrap-box p {
+    font-size: 17px;
+}
+
+@media (max-width: 992px) {
+    .typography-section h1 {
+        font-size: 34px;
+    }
+
+    .typography-section h2 {
+        font-size: 26px;
+    }
+
+    .typography-section p {
+        font-size: 18px;
+    }
+
+    .boxes {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        flex: 0 0 calc(50% - 10px);
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 576px) {
+    .typography-section h1 {
+        font-size: 28px;
+    }
+
+    .typography-section h2 {
+        font-size: 22px;
+    }
+
+    .typography-section p {
+        font-size: 16px;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .layout-section h2 {
+        font-size: 24px;
+    }
+}
+
+.portfolio-section {
+    padding: 60px 0;
+}
+
+.portfolio-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.section-title {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.project-card {
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 25px;
+    height: 100%;
+}
+
+.project-card h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.sidebar {
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 30px;
+    height: 100%;
+}
+
+.sidebar h3 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.sidebar h4 {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.sidebar p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+@media (max-width: 992px) {
+    .portfolio-section {
+        padding: 45px 20px;
+    }
+
+    .portfolio-title {
+        font-size: 32px;
+    }
+
+    .section-title {
+        font-size: 27px;
+    }
+
+    .project-card h4 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 576px) {
+    .portfolio-section {
+        padding: 35px 15px;
+    }
+
+    .portfolio-title {
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .project-card {
+        padding: 20px;
+    }
+
+    .project-card h4 {
+        font-size: 20px;
+    }
+
+    .project-card p {
+        font-size: 15px;
+    }
+
+    .sidebar {
+        padding: 20px;
+    }
+
+    .sidebar h3 {
+        font-size: 23px;
+    }
+
+    .sidebar p {
+        font-size: 15px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+}
